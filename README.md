@@ -1,8 +1,8 @@
 # plagiarism
 
-Python web app to find plagiarism
+## Python web app to find plagiarism ##
 
-to run locally
+To run locally
 ```
 $ pip install -r requirements.txt
 $ python main.py
