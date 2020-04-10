@@ -16,4 +16,4 @@ $ pip install -t lib/ -r requirements.txt ## to install all requiremts so that i
 $ gcloud app deploy
 ```
 ### This is a converted code base from the following blog ###
-Full code for explanations blog entry: http://amunategui.github.io/idea-to-pitch/index.html 
+Full code and explanations in [here](http://amunategui.github.io/idea-to-pitch/index.html)
