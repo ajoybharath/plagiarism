@@ -5,20 +5,18 @@ from lxml import html;
 import requests;
 import string;
 import time;
-#sudo pip install -U nltk
 from nltk.tokenize.punkt import PunktSentenceTokenizer, PunktParameters;
-
 
 # Initialize the Flask application
 app = Flask(__name__)
 
 # Define a route for the default URL, which loads the form
-@app.route("/", methods=['POST', 'GET'])
+@app.route('/', methods=['POST' , 'GET'])
 def form():
     return render_template('plagiarizer-submit.html')
 
 
-@app.route('/IsItPlagiarized/', methods=['POST', 'GET'])
+@app.route('/IsItPlagiarized', methods=['POST', 'GET'])
 def IsItPlagiarized():
         text_to_filter=request.form['text_to_check']
         if (text_to_filter.lstrip().rstrip() == ''):
@@ -38,4 +36,4 @@ def IsItPlagiarized():
         return render_template('plagiarizer-results.html', text_to_filter=text_to_filter, is_it_plagiarized=is_it_plagiarized)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

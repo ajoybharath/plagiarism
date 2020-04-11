@@ -10,7 +10,7 @@ lxml2dict==0.0.2
 MarkupSafe==1.0
 netaddr==0.7.19
 nltk==3.4.5
-requests==2.20.4
+requests==2.23.0
 requests-toolbelt==0.8.0
 SecretStorage==2.3.1
 urllib3==1.24.2

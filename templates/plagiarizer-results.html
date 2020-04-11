@@ -8,12 +8,14 @@
                 <h1>Plagiarism Defender Results</h1>
             </div>
             <div id="content">
-                In our best opinion, the text you entered is <strong></strong> plagiarized!
+                In our best opinion, the text you entered is <strong> {{ is_it_plagiarized }} </strong> plagiarized!
             </div>
             <BR><BR>
             <div id="content">
-                Text Entered: <strong></strong>
+                Text Entered: <strong> {{ text_to_filter }} </strong>
             </div>
+            <BR><BR>
+            <input type="button" value="Want to repeat?" onclick="history.back(-1)" />
         </div>
     </body>
 </html>
