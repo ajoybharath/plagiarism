@@ -1,7 +1,8 @@
 from __future__ import division
 from flask import Flask, render_template, request, url_for;
 import urllib2;
-from lxml import html;
+#import lxml;
+#from lxml import html;
 import requests;
 import string;
 import time;

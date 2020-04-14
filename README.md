@@ -15,5 +15,7 @@ To deploy to Google App Engine
 $ pip install -t lib/ -r requirements.txt ## to install all requiremts so that it'll be moved to GAE
 $ gcloud app deploy
 ```
-### This is a converted code base for APP engine deployment from the following blog ###
-Full code and explanations in [here](http://amunategui.github.io/idea-to-pitch/index.html)
+### The idea for this code base is developed from the following blogs ###
+- [here](http://amunategui.github.io/idea-to-pitch/index.html)
+ &
+- [here](https://opensource.com/article/20/3/open-source-writing-tools)
